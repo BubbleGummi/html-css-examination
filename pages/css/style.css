@@ -1,3 +1,19 @@
 #navbarDog{
     background-color: #F5EFE6;
 }
+
+#logo{
+    height: 100px;
+}
+.nav-link{
+    font-size: 20px;
+    transition: font-size 0.4s;
+}
+.nav-link:hover{
+    font-size: 25px;
+}
+.header-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

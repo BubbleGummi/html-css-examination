@@ -1,6 +1,20 @@
+/* Navbar section */
 #navbarDog{
     background-color: #F5EFE6;
-}  /* Footer section */
+}
+#logo{
+  height: 100px;
+}
+.nav-link{
+  font-size: 20px;
+  transition: font-size 0.4s;
+}
+.nav-link:hover{
+  font-size: 25px;
+}  
+
+
+/* Footer section */
   #footer {
     padding: 4%;
     text-align: center;
