@@ -12,8 +12,6 @@
 .nav-link:hover{
   font-size: 25px;
 }  
-
-
 /* Footer section */
   #footer {
     padding: 4%;
@@ -29,3 +27,12 @@
   a.footer-icon:hover {
     color: #41678e;
   }
+  
+/* code for about page*/
+.bg--beige{
+    background-color: #F5EFE6;
+}
+.about__h1{
+    background-color: #E8DFCA;
+}
+/* code for contact page*/
