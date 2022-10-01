@@ -7,7 +7,12 @@
 - Creates a folder structure in the repository
 
 # Jonathan
-- Add point
+- Created wireframe for the product page
+- Made the shared navbar using bootstrap and custom css. Inserted our logo into the navbar.
+- Created the product page and tested it for accessibility
+- Made protoype t-shirts with a custom logo for our company and included them to the product page
+
+
 # Diana
 - Add point
 # Robin
