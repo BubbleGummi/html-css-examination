@@ -2,6 +2,9 @@
 Grupprojekt för kursinlämning HTML &amp; CSS - EC
 Grupp 12 HALMSTAD
 
+# Project
+Project Onlydogs is an animal shelter website that focuses on giving dogs a new home by selling products and donating to selected organizations.
+
 # Shared Font Style
 
 We use montserrat font on the website.
