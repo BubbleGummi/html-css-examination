@@ -1,31 +1,276 @@
 /* Navbar section */
-#navbarDog{
+#navbarDog {
     background-color: #F5EFE6;
 }
-#logo{
-  height: 100px;
-}
-.nav-link{
-  font-size: 20px;
-  transition: font-size 0.4s;
-}
-.nav-link:hover{
-  font-size: 25px;
-}  
 
+#logo {
+    height: 100px;
+}
+
+.nav-link {
+    font-size: 20px;
+    transition: font-size 0.4s;
+}
+
+.nav-link:hover {
+    font-size: 25px;
+}
+
+
+/* Natalia css */
+/* Here comes code for index page*/
+
+/* Title */
+#title {
+    background-color: #F5EFE6;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.header-h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1, 5;
+    color: #7895B2;
+    padding: 3% 3% 10% 3%
+}
+
+.index-page-h2 {
+    font-family: "Montserrat";
+    size: 3rem;
+    line-height: 1, 5;
+}
+
+.index-page-h3 {
+    font-family: "Montserrat";
+    line-height: 1, 5;
+}
+
+.index-page-h5 {
+    color: #7895B2;
+    font-family: "Montserrat";
+    padding: 3% 0% 3% 0%;
+}
+
+.index-page-h6 {
+    color: #9eb3c9;
+    font-family: "Montserrat";
+    line-height: 1, 5;
+    padding-bottom: 2%;
+}
+
+.title-container h5 {
+    margin-left: 3%;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.index-btn-outline:hover {
+    background-color: #71808e !important;
+    color: #fff !important;
+    border-color: #71808e !important;
+}
+
+.index-btn {
+    background-color: #3e6285 !important;
+    color: #fff !important;
+    border-color: #3e6285 !important;
+}
+
+.index-btn:hover {
+    background-color: #71808e !important;
+    color: #fff !important;
+    border-color: #71808e !important;
+}
+
+.newsletter-button-row {
+    padding: 5%;
+}
+
+/* Feature section */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5% !important;
+}
+
+.index-page-p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #AEBDCA;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #7895B2;
+}
+
+/* Testimonial section */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#testimonials {
+    color: #fff;
+    text-align: center;
+    background-color: #AEBDCA;
+}
+
+.testimonial-img {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+    color: #7895B2;
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Newsletter */
+
+.newsletter {
+    padding: 80px 0;
+    background: #AEBDCA;
+    font-family: "Montserrat";
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #3e6285;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #3e6285;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Call to action */
+#cta {
+    background-color: #F5EFE6;
+    color: #7895B2;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+}
 
 /* Footer section */
-  #footer {
+#footer {
     padding: 4%;
     text-align: center;
-  }
-  .footer-icon {
+}
+
+.footer-icon {
     color: #7895B2;
     margin: 20px 10px;
     text-decoration: none;
-    
-  }
- /* Adds color to hovering state (element.class.action in this order) */
-  a.footer-icon:hover {
+
+}
+
+/* Adds color to hovering state (element.class.action in this order) */
+a.footer-icon:hover {
     color: #41678e;
-  }
+}
+
+#title {
+    text-align: center;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.header {
+    flex-direction: column;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* How the website should look for tablets and mobile: */
+@media (max-width: 992px) {
+    .header-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        width: 250px;
+    }
+
+    .button-row {
+        flex-direction: column;
+    }
+
+    #newsletter {
+        display: none;
+    }
+
+    .newsletter-button-row {
+        display: none;
+    }
+}
