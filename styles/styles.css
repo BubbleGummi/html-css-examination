@@ -274,3 +274,70 @@ a.footer-icon:hover {
         display: none;
     }
 }
+
+/*Jonathan CSS - Product Page*/
+.body-products {
+  font-family: "Montserrat";
+  font-weight: bold;
+  size: 3rem;
+  line-height: 1, 5;
+}
+
+.nav-link {
+  font-size: 20px;
+  transition: font-size 0.4s;
+}
+
+.nav-link:hover {
+  font-size: 25px;
+}
+
+.header-products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E8DFCA;
+  padding: 50px;
+}
+
+.main- {
+  background-color: #AEBDCA;
+}
+
+.product-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-gallery img {
+  background-color: transparent;
+  width: 100%;
+  height: 350px;
+  padding: 10px;
+  object-fit: contain;
+  position: relative;
+}
+
+.product-container p{
+  font-size: 30px;
+}
+
+
+.product-container img:hover {
+  z-index: 9;
+  transform: scale(1.3);
+  transition: transform ease 0.5s;
+  visibility: visible;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .product-gallery {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* END OF PRODUCT PAGE */
+

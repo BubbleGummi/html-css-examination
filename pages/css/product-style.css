@@ -6,7 +6,7 @@
     height: 100px;
 }
 
-body {
+.body-products {
     font-family: "Montserrat";
     font-weight: bold;
     size: 3rem;
@@ -30,11 +30,11 @@ body {
     padding: 50px;
 }
 
-main {
+.main- {
     background-color: #AEBDCA;
 }
 
-.gallery {
+.product-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -42,7 +42,7 @@ main {
     margin: 0 auto;
 }
 
-.gallery img {
+.product-gallery img {
     background-color: transparent;
     width: 100%;
     height: 350px;
@@ -65,7 +65,7 @@ main {
 
 
 @media only screen and (max-width: 600px) {
-    .gallery {
+    .product-gallery {
         grid-template-columns: repeat(2, 1fr);
     }
 }
