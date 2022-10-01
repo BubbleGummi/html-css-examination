@@ -1,0 +1,90 @@
+#navbarDog {
+    background-color: #F5EFE6;
+}
+
+#logo {
+    height: 100px;
+}
+
+body {
+    font-family: "Montserrat";
+    font-weight: bold;
+    size: 3rem;
+    line-height: 1, 5;
+}
+
+.nav-link {
+    font-size: 20px;
+    transition: font-size 0.4s;
+}
+
+.nav-link:hover {
+    font-size: 25px;
+}
+
+.header-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8DFCA;
+    padding: 50px;
+}
+
+main {
+    background-color: #AEBDCA;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    background-color: transparent;
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    object-fit: contain;
+    position: relative;
+}
+
+.product-container p{
+    font-size: 30px;
+}
+
+
+.product-container img:hover {
+    z-index: 9;
+    transform: scale(1.3);
+    transition: transform ease 0.5s;
+    visibility: visible;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+#footer {
+    background-color: #7895B2;
+    padding: 4%;
+    text-align: center;
+}
+
+.footer-icon {
+    color: #fe0707;
+    margin: 20px 10px;
+
+    text-decoration: none;
+
+}
+
+/* Adds color to hovering state (element.class.action in this order) */
+a.footer-icon:hover {
+    color: #41678e;
+}
