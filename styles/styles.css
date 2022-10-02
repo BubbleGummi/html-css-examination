@@ -341,43 +341,11 @@ a.footer-icon:hover {
 }
 /* END OF PRODUCT PAGE */
 
-/* Dianas CSS - about page*/
-/* code for about page*/
-/* Navbar section */
-#navbarDog {
-  background-color: #F5EFE6;
-}
-
-#logo {
-  height: 100px;
-}
-
-.nav-link {
-  font-size: 20px;
-  transition: font-size 0.4s;
-}
-
-.nav-link:hover {
-  font-size: 25px;
-}
-
-/* Footer section */
-#footer {
-  padding: 4%;
-  text-align: center;
-}
-
-.footer-icon {
-  color: #7895B2;
-  margin: 20px 10px;
-  text-decoration: none;
-
-}
-
 /* Adds color to hovering state (element.class.action in this order) */
 a.footer-icon:hover {
   color: #41678e;
 }
+
 /*Dianas code for about and contact*/
 /* code for about page*/
 .about__body {
