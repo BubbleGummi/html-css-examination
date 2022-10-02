@@ -25,7 +25,7 @@
     background-color: #F5EFE6;
 }
 
-body {
+.index-body {
     font-family: "Montserrat";
 }
 
@@ -87,9 +87,6 @@ body {
     border-color: #71808e !important;
 }
 
-.newsletter-button-row {
-    padding: 5%;
-}
 
 /* Feature section */
 #features {
