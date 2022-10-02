@@ -17,7 +17,7 @@
 - Created wireframe for the contact and about pages
 - Created contact and about pages
 - Validated HTML and CSS for the pages
--
+
 # Robin
 - Created wireframe for the news page
 - Created the Onlydogs logo
