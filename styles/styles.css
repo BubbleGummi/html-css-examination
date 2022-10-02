@@ -549,6 +549,105 @@ a.footer-icon:hover {
   border: #3e6285;
 }
 
+.newsbody {
+  font-family: "Montserrat";
+  font-weight: bold;
+  size: 3rem;
+  line-height: 1, 5; 
+}
+
+.leftcolumn {
+  float: left;
+  width: 65%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 35%;
+  
+  padding-left: 20px;
+}
+
+.h1news {
+  text-align: center;
+  font-family: cursive;
+}
+
+.h2news {
+  font-family: cursive;
+  
+}
+
+.card {
+  background-color: beige;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slider-frame {
+  overflow: hidden;
+  height: 700px;
+  width: 900px;
+  margin-left: 360px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*---------Slide Animation-----------*/
+
+@-webkit-keyframes slide_animation{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:1200px;}
+  30% {left:1200px;}
+  40% {left: 2400px;}
+  50% {left: 2400px;}
+  60% {left: 1200px;}
+  70% {left: 1200px;}
+  80% {left:0px;}
+  90% {left:0px;}
+  100% {left:0px;}
+}
+
+.slide-images{
+  width: 3600px;
+  height: 800px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+
+}
+
+.img-container{
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
+
 
 
 
