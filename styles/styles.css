@@ -636,6 +636,10 @@ a.footer-icon:hover {
   margin-top: 50px;
 }
 
+.flex-container {
+  display: flex;
+}
+
 @media screen and (max-width: 800px) {
 
   .leftcolumn,
