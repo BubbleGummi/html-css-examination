@@ -3,7 +3,7 @@
 - Creates mobile/tablet/desktop wireframes for index page
 - Creates the index page
 - Creates a shared footer that everyone can use
-- Creates backlog in github projects with tasks
+- Creates backlog in github projects with tasks https://github.com/users/NataliaChebanenko/projects/1/views/1
 - Creates a folder structure in the repository
 
 # Jonathan
