@@ -555,16 +555,32 @@ a.footer-icon:hover {
   border: #3e6285;
 }
 
-<<<<<<< HEAD
 .contact__information {
   padding: 2rem;
 }
-=======
+.contact__h3 {
+  font-size: 2rem;
+}
+
+@media (max-width: 990px){
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/* END OF CONTACT PAGE*/
+
+/* Robins CSS, news page*/
+.news__h1{
+  display: flex;
+  justify-content: center;
+}
 .newsbody {
   font-family: "Montserrat";
   font-weight: bold;
-  size: 3rem;
-  line-height: 1, 5; 
+  font-size: 3rem;
+  line-height: 1; 
 }
 
 .leftcolumn {
@@ -604,7 +620,7 @@ a.footer-icon:hover {
 .slider-frame {
   overflow: hidden;
   height: 700px;
-  width: 900px;
+  width: 1200px;
   margin-left: 360px;
   margin-top: 50px;
 }
@@ -659,19 +675,4 @@ a.footer-icon:hover {
   float: left;
 }
 
->>>>>>> c9066834841568aaf839044b3aa3162d80577ff8
 
-.contact__h3 {
-  font-size: 2rem;
-}
-
-@media (max-width: 990px){
-  .contact__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-/* END OF CONTACT PAGE*
-
- 
