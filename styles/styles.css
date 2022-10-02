@@ -1,19 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
 /* Navbar section */
 #navbarDog {
-    background-color: #F5EFE6;
+  background-color: #F5EFE6;
 }
 
 #logo {
-    height: 100px;
+  height: 100px;
 }
 
 .nav-link {
-    font-size: 20px;
-    transition: font-size 0.4s;
+  font-size: 20px;
+  transition: font-size 0.4s;
 }
 
 .nav-link:hover {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 
@@ -22,259 +29,259 @@
 
 /* Title */
 #title {
-    background-color: #F5EFE6;
+  background-color: #F5EFE6;
 }
 
 .index-body {
-    font-family: "Montserrat";
+  font-family: "Montserrat";
 }
 
 .header-h1 {
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 3rem;
-    color: #7895B2;
-    padding: 3% 3% 10% 3%
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #7895B2;
+  padding: 3% 3% 10% 3%
 }
 
 .index-page-h2 {
-    font-family: "Montserrat";
-    font-size: 2rem;
-    line-height: 1;
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1;
 }
 
 .index-page-h3 {
-    font-family: "Montserrat";
-    line-height: 1;
+  font-family: "Montserrat";
+  line-height: 1;
 }
 
 .index-page-h5 {
-    color: #7895B2;
-    font-family: "Montserrat";
-    padding: 3% 0% 3% 0%;
+  color: #7895B2;
+  font-family: "Montserrat";
+  padding: 3% 0% 3% 0%;
 }
 
 .index-page-h6 {
-    color: #9eb3c9;
-    font-family: "Montserrat";
-    line-height: 1;
-    padding-bottom: 2%;
+  color: #9eb3c9;
+  font-family: "Montserrat";
+  line-height: 1;
+  padding-bottom: 2%;
 }
 
 .title-container h5 {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 
 .nav-item {
-    padding: 0px 10px;
+  padding: 0px 10px;
 }
 
 .index-btn-outline:hover {
-    background-color: #71808e !important;
-    color: #fff !important;
-    border-color: #71808e !important;
+  background-color: #71808e !important;
+  color: #fff !important;
+  border-color: #71808e !important;
 }
 
 .index-btn {
-    background-color: #3e6285 !important;
-    color: #fff !important;
-    border-color: #3e6285 !important;
+  background-color: #3e6285 !important;
+  color: #fff !important;
+  border-color: #3e6285 !important;
 }
 
 .index-btn:hover {
-    background-color: #71808e !important;
-    color: #fff !important;
-    border-color: #71808e !important;
+  background-color: #71808e !important;
+  color: #fff !important;
+  border-color: #71808e !important;
 }
 
 
 /* Feature section */
 #features {
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    z-index: 1;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
-    text-align: center;
-    padding: 5% !important;
+  text-align: center;
+  padding: 5% !important;
 }
 
 .index-page-p {
-    color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 .icon {
-    color: #AEBDCA;
-    margin-bottom: 1rem;
+  color: #AEBDCA;
+  margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #7895B2;
+  color: #7895B2;
 }
 
 /* Testimonial section */
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 #testimonials {
-    color: #fff;
-    text-align: center;
-    background-color: #AEBDCA;
+  color: #fff;
+  text-align: center;
+  background-color: #AEBDCA;
 }
 
 .testimonial-img {
-    width: 10%;
-    height: 10%;
-    border-radius: 50%;
-    margin: 20px;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  margin: 20px;
 }
 
 #press {
-    text-align: center;
-    padding-top: 3%;
+  text-align: center;
+  padding-top: 3%;
 }
 
 .press-logo {
-    width: 10%;
-    margin: 20px 20px 50px;
+  width: 10%;
+  margin: 20px 20px 50px;
 }
 
 /* Pricing section */
 #pricing {
-    color: #7895B2;
-    padding: 100px;
-    text-align: center;
+  color: #7895B2;
+  padding: 100px;
+  text-align: center;
 }
 
 .pricing-column {
-    padding: 3% 2%;
+  padding: 3% 2%;
 }
 
 /* Newsletter */
 
 .newsletter {
-    padding: 80px 0;
-    background: #AEBDCA;
-    font-family: "Montserrat";
+  padding: 80px 0;
+  background: #AEBDCA;
+  font-family: "Montserrat";
 }
 
 .newsletter .content {
-    max-width: 650px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .newsletter .content h2 {
-    color: #fff;
-    margin-bottom: 40px;
+  color: #fff;
+  margin-bottom: 40px;
 }
 
 .newsletter .content .form-control {
-    height: 50px;
-    border-color: #ffffff;
-    border-radius: 0;
+  height: 50px;
+  border-color: #ffffff;
+  border-radius: 0;
 }
 
 .newsletter .content.form-control:focus {
-    box-shadow: none;
-    border: 2px solid #3e6285;
+  box-shadow: none;
+  border: 2px solid #3e6285;
 }
 
 .newsletter .content .btn {
-    min-height: 50px;
-    border-radius: 0;
-    background: #3e6285;
-    color: #fff;
-    font-weight: 600;
+  min-height: 50px;
+  border-radius: 0;
+  background: #3e6285;
+  color: #fff;
+  font-weight: 600;
 }
 
 /* Call to action */
 #cta {
-    background-color: #F5EFE6;
-    color: #7895B2;
-    padding: 7% 15%;
-    text-align: center;
+  background-color: #F5EFE6;
+  color: #7895B2;
+  padding: 7% 15%;
+  text-align: center;
 }
 
 .cta-heading {
-    font-family: "Montserrat";
-    font-weight: bold;
-    text-align: center;
-    padding: 3%;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-align: center;
+  padding: 3%;
 }
 
 /* Footer section */
 #footer {
-    padding: 4%;
-    text-align: center;
+  padding: 4%;
+  text-align: center;
 }
 
 .footer-icon {
-    color: #7895B2;
-    margin: 20px 10px;
-    text-decoration: none;
+  color: #7895B2;
+  margin: 20px 10px;
+  text-decoration: none;
 
 }
 
 /* Adds color to hovering state (element.class.action in this order) */
 a.footer-icon:hover {
-    color: #41678e;
+  color: #41678e;
 }
 
 #title {
-    text-align: center;
+  text-align: center;
 }
 
 .header-row {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
 }
 
 .header {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .button-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* How the website should look for tablets and mobile: */
 @media (max-width: 992px) {
-    .header-row {
-        flex-direction: column;
-        justify-content: center;
-    }
+  .header-row {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .img-fluid {
-        width: 250px;
-    }
+  .img-fluid {
+    width: 250px;
+  }
 
-    .button-row {
-        flex-direction: column;
-    }
+  .button-row {
+    flex-direction: column;
+  }
 
-    #newsletter {
-        display: none;
-    }
+  #newsletter {
+    display: none;
+  }
 
-    .newsletter-button-row {
-        display: none;
-    }
+  .newsletter-button-row {
+    display: none;
+  }
 }
 
 /*Jonathan CSS - Product Page*/
 .body-products {
   font-family: "Montserrat";
-  font-weight: bold;
+  font-weight: 500;
   font-size: 3rem;
   line-height: 1;
 }
@@ -317,7 +324,7 @@ a.footer-icon:hover {
   position: relative;
 }
 
-.product-container p{
+.product-container p {
   font-size: 30px;
 }
 
@@ -332,9 +339,10 @@ a.footer-icon:hover {
 
 @media only screen and (max-width: 600px) {
   .product-gallery {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+
 /* END OF PRODUCT PAGE */
 
 /* Adds color to hovering state (element.class.action in this order) */
@@ -496,7 +504,7 @@ a.footer-icon:hover {
 }
 
 .about__form {
-    padding: 2rem;
+  padding: 2rem;
   background-color: #7895B2;
   font-family: "Montserrat";
   border: .5rem dotted #AEBDCA;
@@ -505,8 +513,6 @@ a.footer-icon:hover {
 .donate__list {
   padding: 1rem;
   list-style-type: circle;
-  font-family: "Montserrat";
-  font-weight: 500;
 }
 
 @media (max-width: 990px) {
@@ -519,9 +525,10 @@ a.footer-icon:hover {
     justify-content: center;
   }
 }
+
 /* END OF ABOUT PAGE*
 /* code for contact page*/
-.contact__body{
+.contact__body {
   background-color: #F5EFE6;
 }
 
@@ -532,24 +539,177 @@ a.footer-icon:hover {
 
 .contact__container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   padding: 4rem;
 }
 
-.contact__form--container{
+.contact__form--container {
   background-color: #AEBDCA;
   border: solid #7895B2;
   padding: 1rem;
   box-shadow: .5rem .3rem black;
 }
 
-#contact input[type=text]{
+#contact input[type=text],
+#contact textarea,
+#contact input[type=submit],
+#contact input[type=reset] {
   background-color: #fff;
   border: #3e6285;
 }
 
+.contact__information {
+  padding: 2rem;
+}
 
+.contact__h3 {
+  font-size: 2rem;
+}
 
+@media (max-width: 990px) {
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 
- 
+/* END OF CONTACT PAGE*/
+
+/* Robins CSS, news page*/
+.news__h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.newsbody {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.leftcolumn {
+  float: left;
+  width: 65%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 35%;
+
+  padding-left: 20px;
+}
+
+.h1news {
+  text-align: center;
+  font-family: cursive;
+}
+
+.h2news {
+  font-family: cursive;
+
+}
+
+.card {
+  background-color: beige;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slider-frame {
+  overflow: hidden;
+  height: 700px;
+  width: 1200px;
+  margin-left: 360px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*---------Slide Animation-----------*/
+
+@-webkit-keyframes slide_animation {
+  0% {
+    left: 0px;
+  }
+
+  10% {
+    left: 0px;
+  }
+
+  20% {
+    left: 1200px;
+  }
+
+  30% {
+    left: 1200px;
+  }
+
+  40% {
+    left: 2400px;
+  }
+
+  50% {
+    left: 2400px;
+  }
+
+  60% {
+    left: 1200px;
+  }
+
+  70% {
+    left: 1200px;
+  }
+
+  80% {
+    left: 0px;
+  }
+
+  90% {
+    left: 0px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+.slide-images {
+  width: 3600px;
+  height: 800px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+}
+
+.img-container {
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
