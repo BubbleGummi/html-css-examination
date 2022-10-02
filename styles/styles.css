@@ -575,9 +575,9 @@ a.footer-icon:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
   }
 }
-
 /* END OF CONTACT PAGE*/
 
 /* Robins CSS, news page*/
