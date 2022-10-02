@@ -537,11 +537,19 @@ a.footer-icon:hover {
   padding: 4rem;
 }
 
-.contact__form{
+.contact__form--container{
   background-color: #AEBDCA;
   border: solid #7895B2;
   padding: 1rem;
   box-shadow: .5rem .3rem black;
 }
+
+#contact input[type=text]{
+  background-color: #fff;
+  border: #3e6285;
+}
+
+
+
 
  
