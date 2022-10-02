@@ -499,8 +499,7 @@ a.footer-icon:hover {
 }
 
 .about__form {
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
   padding: 2rem;
   background-color: #7895B2;
   font-family: "Montserrat";
