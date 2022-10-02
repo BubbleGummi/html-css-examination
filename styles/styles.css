@@ -501,7 +501,7 @@ a.footer-icon:hover {
 }
 
 .about__form {
-    padding: 2rem;
+  padding: 2rem;
   background-color: #7895B2;
   font-family: "Montserrat";
   border: .5rem dotted #AEBDCA;
@@ -555,7 +555,21 @@ a.footer-icon:hover {
   border: #3e6285;
 }
 
+.contact__information {
+  padding: 2rem;
+}
 
+.contact__h3 {
+  font-size: 2rem;
+}
+
+@media (max-width: 990px){
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 /* END OF CONTACT PAGE*
 
  
