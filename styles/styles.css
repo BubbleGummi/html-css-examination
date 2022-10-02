@@ -22,6 +22,7 @@
 .nav-link:hover {
   font-size: 25px;
 }
+
 /* Natalia css */
 /* Here comes code for index page*/
 
@@ -339,20 +340,21 @@ a.footer-icon:hover {
 }
 
 #footer-product {
-    background-color: #7895B2;
-    padding: 4%;
-    text-align: center;
+  background-color: #7895B2;
+  padding: 4%;
+  text-align: center;
 }
 
 .footer-product-icon {
-    color: #fe0707;
-    margin: 20px 10px;
-    text-decoration: none;
+  color: #fe0707;
+  margin: 20px 10px;
+  text-decoration: none;
 }
 
 a.footer-icon:hover {
-    color: #41678e;
+  color: #41678e;
 }
+
 @media only screen and (max-width: 600px) {
   .product-gallery {
     grid-template-columns: repeat(2, 1fr);
@@ -578,6 +580,7 @@ a.footer-icon:hover {
     width: 100%;
   }
 }
+
 /* END OF CONTACT PAGE*/
 
 /* Robins CSS, news page*/
