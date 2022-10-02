@@ -499,8 +499,7 @@ a.footer-icon:hover {
 }
 
 .about__form {
-  box-sizing: border-box;
-  padding: 2rem;
+    padding: 2rem;
   background-color: #7895B2;
   font-family: "Montserrat";
   border: .5rem dotted #AEBDCA;
@@ -525,4 +524,27 @@ a.footer-icon:hover {
 }
 /* END OF ABOUT PAGE*
 /* code for contact page*/
+.contact__body{
+  background-color: #F5EFE6;
+}
 
+.contact__h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.contact__form{
+  background-color: #AEBDCA;
+  border: solid #7895B2;
+  padding: 1rem;
+  box-shadow: .5rem .3rem black;
+}
+
+ 
