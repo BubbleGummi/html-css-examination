@@ -22,18 +22,12 @@
 .nav-link:hover {
   font-size: 25px;
 }
-
-
 /* Natalia css */
 /* Here comes code for index page*/
 
 /* Title */
 #title {
   background-color: #F5EFE6;
-}
-
-.index-body {
-  font-family: "Montserrat";
 }
 
 .header-h1 {
@@ -282,7 +276,6 @@ a.footer-icon:hover {
 .body-products {
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 3rem;
   line-height: 1;
 }
 
@@ -577,15 +570,17 @@ a.footer-icon:hover {
 /* END OF CONTACT PAGE*/
 
 /* Robins CSS, news page*/
+.news__container {
+  display: row;
+}
 .news__h1 {
   display: flex;
   justify-content: center;
 }
 
 .newsbody {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 3rem;
+  padding: 1rem;
+  font-size: 1.5rem;
   line-height: 1;
 }
 
